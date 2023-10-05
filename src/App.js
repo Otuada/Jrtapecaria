@@ -1,11 +1,12 @@
 import React from "react";
+import { Router } from "./Routes/Routers"
 
 
 function App() {
   return (
-    <div className="App">
-      JR Tapeçaria
-    </div>
+    
+    < Router />
+  
   );
 }
 

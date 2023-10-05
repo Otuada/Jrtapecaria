@@ -1,4 +1,4 @@
-export const goToCotanto = (navigate) =>{
+export const goToContanto = (navigate) =>{
     navigate('/contato')
 }
 
