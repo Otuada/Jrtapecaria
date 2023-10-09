@@ -5,7 +5,9 @@ export const Sobre =() =>{
 
     return(
         <div>
-            <h1>Jr Tapeçaria</h1>
+            <div>
+            <h1>Jr Tapeçaria Sobre</h1>
+            </div>
         </div>
     )
 }
