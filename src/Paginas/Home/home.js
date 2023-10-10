@@ -19,8 +19,8 @@ export const Home = () =>{
         goToSobre(navigate)
     }
     return(
-       <div>
          <DivFundo>
+       <div>
             <div>
                <h1>home</h1>
             </div>
@@ -68,7 +68,7 @@ export const Home = () =>{
             <GaleriaImagens />
 
           </div>
-          </DivFundo>
        </div>
+    </DivFundo>
     )
 }

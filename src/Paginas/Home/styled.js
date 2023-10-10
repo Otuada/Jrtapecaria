@@ -8,7 +8,7 @@ export const DivBotoes = styled.div`
 
 `
 export const DivFundo =styled.div`
-     background-color: #062F87;
+     background-color: #4F7AD7;
 `
 
 export const DivHome = styled.div`
