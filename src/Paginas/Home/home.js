@@ -1,7 +1,7 @@
 import React from "react"
 import { useNavigate } from "react-router-dom"
-import { goToContanto, goToSobre } from "../../Routes/Coordinator"
-import { DivBotoes, DivFundo } from "./styled"
+import { goToContanto, goToSobre, goToPortifolio } from "../../Routes/Coordinator"
+import { DivBotoes, DivFundo, DivHeader } from "./styled"
 import GaleriaImagens from "../../Components/galeriaImagem"
 
 
@@ -19,15 +19,17 @@ export const Home = () =>{
         goToSobre(navigate)
     }
     return(
-         <DivFundo>
-       <div>
+     <DivFundo>
+       <DivHeader>
             <div>
                <h1>home</h1>
             </div>
-          <DivBotoes> 
+        <DivBotoes> 
                <button onClick={toContato}>Contato</button>
                <button onClick={toSobre}>Jr Tapeçaria</button>
-          </DivBotoes>
+               <button onClick={goToPortifolio}>Portifolio</button>
+        </DivBotoes>
+        </DivHeader>
           <div>
             <h3>🛋 JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais 🛋</h3>
             <p>Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
@@ -68,7 +70,7 @@ export const Home = () =>{
             <GaleriaImagens />
 
           </div>
-       </div>
+       
     </DivFundo>
     )
 }
