@@ -1,7 +1,7 @@
 import React from "react"
 import { useNavigate } from "react-router-dom"
 import { goToContanto, goToSobre, goToPortifolio } from "../../Routes/Coordinator"
-import { DivBotoes, DivFundo, DivHeader } from "./styled"
+import { DivBotoes, DivFundo, DivHeader,Section} from "./styled"
 import GaleriaImagens from "../../Components/galeriaImagem"
 
 
@@ -19,25 +19,43 @@ export const Home = () =>{
         goToSobre(navigate)
     }
     return(
-     <DivFundo>
+      <DivFundo>
        <DivHeader>
-            <div>
-               <h1>home</h1>
-            </div>
-        <DivBotoes> 
-               <button onClick={toContato}>Contato</button>
-               <button onClick={toSobre}>Jr Tapeçaria</button>
-               <button onClick={goToPortifolio}>Portifolio</button>
+        <DivBotoes>
+          <header>
+               <h1>Jr Tapeçaria</h1>
+          </header>                       
+        </DivBotoes>
+        <DivBotoes>
+        <nav>
+          
+            <ul>
+              
+                <li ><a onClick={toContato}>Contato</a></li>
+                <li ><a onClick={toSobre}>Jr Tapeçaria</a></li>
+                <li ><a onClick={goToPortifolio}>Portifolio</a></li>
+                                       
+            </ul>
+          
+           
+        </nav>
+             
+        
         </DivBotoes>
         </DivHeader>
-          <div>
+        
+        <Section>
+          
+          <section>
             <h3>🛋 JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais 🛋</h3>
             <p>Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
                anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer
                serviços de excepcional qualidade, incluindo0:
             </p>          
-          </div>
-          <div>
+          </section>
+        </Section>
+        <Section>  
+          <section>
             <p>✨ Reforma de Sofás, Cadeiras e Poltronas: Especializados em todos os modelos 
                 e dimensões, inclusive para Sofás e Poltronas Plenitude.
             </p>
@@ -65,12 +83,20 @@ export const Home = () =>{
                Sua Tapeçaria de Confiança!
             </p>
 
-          </div>
-          <div>
+          </section>
+        </Section>
+          
+        <Section>  
+          <section>
             <GaleriaImagens />
 
-          </div>
-       
+          </section>
+          
+        </Section>
+        
     </DivFundo>
+    
+    
+     
     )
 }
