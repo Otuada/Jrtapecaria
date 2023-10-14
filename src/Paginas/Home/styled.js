@@ -31,7 +31,8 @@ export const DivBotoes = styled.nav`
 `;
 
 export const Section = styled.section`
-   width:80%;  
+   
+   width:60%;  
    background-color: #fff;
    border: 1px solid #ddd;
    border-radius: 8px;
@@ -39,19 +40,41 @@ export const Section = styled.section`
    
    margin:20px;
    padding:10px;
+
+   #cartao{
+      display: flex;
+   }
+
+   .card {
+      
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      width: 100%;
+      
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      background-color: #00277A;
+    }
+    
    
 `;
 
-export const DivFundo = styled.div`
+export const DivFundo = styled.body`
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
-   
-   padding:50px;        
-   font-family: Arial, sans-serif;
-   background-color: black;   
-   
+   justify-content: center;   
+   padding:70px;        
+   font-family: Arial, sans-serif;      
    margin: 0;
+   
+
    
    
 `;
