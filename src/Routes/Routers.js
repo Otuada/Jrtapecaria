@@ -12,7 +12,7 @@ export const Router = () =>{
                     <Route index element ={<Home/>} />
                     <Route path={'/Contato'} element={<Contato/>} />
                     <Route path={'/Sobre'} element={<Sobre/>} />
-                    <Route path={'/portifolio'} element={<Portifolio/>} />
+                    <Route path={'/Portifolio'} element={<Portifolio/>} />
                 </Routes>     
             </BrowserRouter>
         </div>
