@@ -1,34 +1,6 @@
 import styled from "styled-components";
 
-export const DivBotoes = styled.nav`
-   ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      align-items: center;
-   }
 
-   ul li {
-      margin-right: 20px;
-   }
-
-   ul li button {
-      font-size: 1vw;
-      text-transform: uppercase;
-      color: #5D561F;
-      text-decoration: none;
-      cursor: pointer;
-   }
-
-   ul li button:hover {
-      text-decoration: blink;
-   }
-
-   header {
-      margin: 10px;
-   }
-`;
 
 export const Section = styled.section`
   width: 100%;
@@ -36,13 +8,10 @@ export const Section = styled.section`
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
-  margin: 500px 0;
-  padding: 0;
+  margin: 350px 0 0 0;
+  //padding: 0;
 
-  .card-container {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .card {
   background-color: #fff;
@@ -52,8 +21,8 @@ export const Section = styled.section`
   margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: calc(33.33% - 20px); /* Calcula 1/3 da largura menos margens */
-  font-size: 16px; /* Tamanho da fonte */
+  width: calc(37% - 20px); /* Calcula 1/3 da largura menos margens */
+  font-size: 19px; /* Tamanho da fonte */
 }
 
 .card:hover {
@@ -63,7 +32,15 @@ export const Section = styled.section`
 }
 `
 
-export const DivFundo = styled.body`
+export const BodyFundo = styled.div`
+
+    
+    background-image: url('../../img/3ded0ee9-29ec-4298-812b-75ed7582f2cf.jpg');
+          
+    background-attachment: fixed;
+    background-position: center center;     
+    margin: 0;
+    padding: 0;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;   
@@ -90,7 +67,7 @@ export const DivHeader = styled.div`
    color: #fff;
 `;
 
-export const FirstBackground = styled.div`
+export const FirstBackground = styled.div`//teste
   background-image: url('../../img/sofa5.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -103,7 +80,7 @@ export const FirstBackground = styled.div`
 `;
 
 
-export const SecondBackground = styled.div`
+export const SecondBackground = styled.div`//teste 
   background-image: url('../../img/qmaxlb_bfb7a8ecd23448fa37210dc0deb29936fbd09769.jpg'); // Substitua com o caminho da sua segunda imagem
   background-size: cover;
   background-repeat: no-repeat;

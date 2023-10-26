@@ -1,7 +1,6 @@
 import React from "react"
-import { useNavigate } from "react-router-dom"
-import { goToContanto, goToSobre, goToPortifolio } from "../../Routes/Coordinator"
-import { DivBotoes, DivFundo, DivHeader,Section, FirstBackground, SecondBackground} from "./styled"
+import { BodyFundo,  Section } from "./styled"
+import { HeaderFixo } from "../../Components/Header/Header"
 
 
 
@@ -9,45 +8,16 @@ import { DivBotoes, DivFundo, DivHeader,Section, FirstBackground, SecondBackgrou
 
 export const Home = () =>{
     
-    const navigate = useNavigate()
     
-    const toContato = () =>{
-        goToContanto(navigate)
-    }
-
-    const toPortifolio = () => {
-      goToPortifolio(navigate)
-    }
-
-    const toSobre = () =>{
-        goToSobre(navigate)
-    }
     return(
-      <DivFundo>
+      <BodyFundo>
       
-       <DivHeader>
-        <DivBotoes>
-          <header>
-               <h1>Jr Tapeçaria</h1>
-          </header>                       
-        </DivBotoes>
-        <DivBotoes>
-        <nav>          
-            <ul>              
-                <li ><button  onClick={toSobre}>Jr Tapeçaria</button></li>
-                <li ><button  onClick={toPortifolio}>Portifolio</button></li>                                       
-                <li ><button  onClick={toContato}>Contato</button></li>
-            </ul>                 
-        </nav>
-             
-        
-        </DivBotoes>
-        </DivHeader>
+       <HeaderFixo></HeaderFixo>
         
         <Section>
           
           
-            <h1>🛋 JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais 🛋</h1>
+            <h4> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </h4>
             <div id="cartao">
               
             <p className="card">Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
@@ -96,7 +66,7 @@ export const Home = () =>{
           
        
         
-        </DivFundo>
+        </BodyFundo>
     
     
      

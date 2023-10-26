@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const DivBotoes = styled.nav`
    ul {
       margin: 0;
@@ -10,7 +11,7 @@ export const DivBotoes = styled.nav`
    }
 
    ul li {
-      margin-right: 20px;
+      margin-right: 30px;
    }
 
    ul li button {
@@ -26,18 +27,19 @@ export const DivBotoes = styled.nav`
    }
 
    header {
-      margin: 10px;
+      margin: 20px;
    }
 `;
-
 
 export const DivHeader = styled.div`
    background-color: #00277A;
    position: fixed;
    top: 0;
+   left: 0; 
+   right: 0; 
    width: 100%;
    z-index: 100;
-   padding: 0;
+   padding: 20px;
    display: flex;
    justify-content: space-between;
    align-items: center;
