@@ -1,46 +1,36 @@
 import styled from "styled-components";
 
-export const DivBotoes = styled.nav`
-   ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      align-items: center;
-   }
-
-   ul li {
-      margin-right: 20px;
-   }
-
-   ul li button {
-      font-size: 1vw;
-      text-transform: uppercase;
-      color: #5D561F;
-      text-decoration: none;
-      cursor: pointer;
-   }
-
-   ul li button:hover {
-      text-decoration: blink;
-   }
-
-   header {
-      margin: 10px;
-   }
-`;
 
 
-export const DivHeader = styled.div`
-   background-color: #00277A;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 100;
-   padding: 0;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-direction: row;
-   color: #fff;
-`;
+export const Section = styled.section`
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
+  left: 0; 
+  right: 0;
+  margin-top: 350px;
+  position: relative;
+  padding: 0;
+
+
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: calc(37% - 20px); /* Calcula 1/3 da largura menos margens */
+  font-size: 19px; /* Tamanho da fonte */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: #00277A;
+  color: #fff;
+}
+`

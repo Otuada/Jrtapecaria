@@ -29,7 +29,7 @@ export const HeaderFixo = () =>{
     <DivHeader>
     
       
-           <img src='../../img/74061e09-1d09-42c2-91c5-470dc9021be8.jpg' alt="Logo Jr" onClick={toPortifolio}/>
+           <img src='../../img/74061e09-1d09-42c2-91c5-470dc9021be8.jpg' alt="Logo Jr" onClick={toHome}/>
                              
     
     <DivBotoes>

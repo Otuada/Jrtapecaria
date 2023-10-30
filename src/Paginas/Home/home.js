@@ -1,5 +1,5 @@
 import React from "react"
-import { BodyFundo,  Section } from "./styled"
+import { Section, DivPrincipal, H5Titulo } from "./styled"
 import { HeaderFixo } from "../../Components/Header/Header"
 
 
@@ -10,10 +10,12 @@ export const Home = () =>{
     
     
     return(
-      <BodyFundo>
+      
+      <DivPrincipal>
       
        <HeaderFixo></HeaderFixo>
         
+        <H5Titulo>Solução para seu movel veio</H5Titulo>
         <Section>
           
           
@@ -66,7 +68,7 @@ export const Home = () =>{
           
        
         
-        </BodyFundo>
+        </DivPrincipal>
     
     
      

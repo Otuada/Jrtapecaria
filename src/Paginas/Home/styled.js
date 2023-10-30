@@ -8,8 +8,11 @@ export const Section = styled.section`
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
-  margin: 350px 0 0 0;
-  //padding: 0;
+  left: 0; 
+  right: 0;
+  margin-top: 350px;
+  position: relative;
+  padding: 0;
 
 
 
@@ -31,41 +34,21 @@ export const Section = styled.section`
   color: #fff;
 }
 `
-
-export const BodyFundo = styled.div`
+/*export const DivFundo = styled.body`
 
     
-    background-image: url('../../img/3ded0ee9-29ec-4298-812b-75ed7582f2cf.jpg');
-          
-    background-attachment: fixed;
-    background-position: center center;     
-    margin: 0;
-    padding: 0;
+   background-image: url('../../img/3ded0ee9-29ec-4298-812b-75ed7582f2cf.jpg');
+   background-attachment: fixed;
+   background-position: center center;     
+   margin: 0;
+   padding: 0;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;   
    padding:70px;        
    font-family: Arial, sans-serif;      
-   margin: 0;
-   
-
-   
-   
-`;
-
-export const DivHeader = styled.div`
-   background-color: #00277A;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 100;
-   padding: 0;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-direction: row;
-   color: #fff;
-`;
+   margin: 0; 
+`;*/
 
 export const FirstBackground = styled.div`//teste
   background-image: url('../../img/sofa5.jpeg');
@@ -91,3 +74,18 @@ export const SecondBackground = styled.div`//teste
   position: fixed;
   z-index: -2;
 `;
+
+
+ export const DivPrincipal = styled.body`
+  background-image: url('../../img/sofa5.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+`;
+
+export const H5Titulo = styled.h1`
+    color: black;
+    margin-top: 200px;
+
+`
