@@ -20,7 +20,7 @@ export const Home = () =>{
           
           
             <h4> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </h4>
-            <div id="cartao">
+           
               
             <p className="card">Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
                anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer
@@ -43,9 +43,9 @@ export const Home = () =>{
             <p className="card">05 Combo Especial "Conserta & Limpa": Restaure o brilho
                 do seu estofado com nossos serviços combinados.
             </p>
-            </div>
             
-            <div>
+            
+            
             
             <p className="card">Para uma avaliação rápida e precisa, gentilmente envie
                fotos do seu estofado pelo WhatsApp (11) 9 3937 2281. 
@@ -58,7 +58,7 @@ export const Home = () =>{
                Renove seu espaço com a JR Tapeçaria - 
                Sua Tapeçaria de Confiança!
             </p>
-            </div>
+           
                      
          
             

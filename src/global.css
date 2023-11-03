@@ -1,13 +1,12 @@
 
-/*body {
-    font-family: Arial, sans-serif;
-    background-image: url('./img/sofa5.jpeg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-position: center center;     
-    margin: 0;
-    padding: 0;
-    
-  }*/
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./img/sofa5.jpeg'), url('./img/sofa2.jpeg');
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: center center, center center;
+  margin: 0;
+  padding: 0;
+}
   
