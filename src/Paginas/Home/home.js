@@ -19,9 +19,9 @@ export const Home = () =>{
         <Section>
           
           
-            <h4> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </h4>
+            <h1> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </h1>
            
-              
+        <div id="cartao">  
             <p className="card">Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
                anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer
                serviços de excepcional qualidade, incluindo0:
@@ -33,7 +33,13 @@ export const Home = () =>{
             <p className="card">02 Lavagem, Limpeza e Higienização Profunda: Oferecemos uma renovação 
                 completa, zelando tanto pelos tecidos quanto pelas espumas.
             </p>
-            
+        </div>     
+          
+
+        </Section>
+        <Section> 
+            <div id="cartao">
+
             <p className="card">03 Impermeabilização de Tecidos: Salvaguarde seus estofados 
                contra manchas e desgaste.
             </p>
@@ -47,7 +53,18 @@ export const Home = () =>{
             
             
             
-            <p className="card">Para uma avaliação rápida e precisa, gentilmente envie
+            
+            </div>
+            
+           
+       
+        </Section>    
+          
+           
+        <Section>
+            <div id="cartao">
+
+                 <p className="contato">Para uma avaliação rápida e precisa, gentilmente envie
                fotos do seu estofado pelo WhatsApp (11) 9 3937 2281. 
                Estamos estrategicamente situados na Granja Viana e 
                prestamos atendimento em toda a região de Cotia, São Paulo, 
@@ -58,13 +75,14 @@ export const Home = () =>{
                Renove seu espaço com a JR Tapeçaria - 
                Sua Tapeçaria de Confiança!
             </p>
+            </div>
+       
            
-                     
+        </Section>             
          
             
 
         
-        </Section>
           
        
         

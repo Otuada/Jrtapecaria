@@ -8,34 +8,63 @@ export const Section = styled.section`
   align-items: center;
   
   
+  
   width: 100%; /* Em vez de 50%, para ocupar a largura total */
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  background-color: black;
+  border: 1px solid black;
+  
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
-  margin: auto;
+  margin: 1%;
   padding:0%;
  
+  #cartao{
+    display: flex;
+  flex-direction: row;
+  align-items: stretch;
   
+  }
   .card {
       
-    
+  
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 10%;
+    padding: 5%;
     margin: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 100%;
     
-    font-size: 1,5vw; /* Tamanho da fonte */
+    font-size: 100%; /* Tamanho da fonte */
   }
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     background-color: #00277A;
     color: #fff;
+   
+  }
+
+  .contato{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    
+    font-size: 100%; /* Tamanho da fonte */
+  }
+  .contato:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #00277A;
+    color: #fff;
+  }
+
+  h1{
+    color: white;
   }
 
   @media screen and (min-width: 768px) {
@@ -73,12 +102,13 @@ export const Section = styled.section`
 
 
 
- export const DivPrincipal = styled.body`
+ export const DivPrincipal = styled.div`
   display:flex;
   flex-direction: column;
   align-items: center;
-  padding:2%;
-
+  
+  
+ 
   
 `;
 
