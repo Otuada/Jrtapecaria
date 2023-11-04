@@ -10,6 +10,7 @@ export const Section = styled.section`
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
   left: 0; 
   right: 0;
+  margin: 0;
   margin-top: 350px;
   position: relative;
   padding: 0;
@@ -34,7 +35,7 @@ export const Section = styled.section`
   color: #fff;
 }
 `
-/*export const DivFundo = styled.body`
+export const DivFundo = styled.body`
 
     
    background-image: url('../../img/3ded0ee9-29ec-4298-812b-75ed7582f2cf.jpg');
@@ -48,32 +49,8 @@ export const Section = styled.section`
    padding:70px;        
    font-family: Arial, sans-serif;      
    margin: 0; 
-`;*/
-
-export const FirstBackground = styled.div`//teste
-  background-image: url('../../img/sofa5.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  height: 100vh;
-  width: 50%; /* Dividindo a tela ao meio horizontalmente */
-  position: fixed;
-  z-index: -1;
 `;
 
-
-export const SecondBackground = styled.div`//teste 
-  background-image: url('../../img/qmaxlb_bfb7a8ecd23448fa37210dc0deb29936fbd09769.jpg'); // Substitua com o caminho da sua segunda imagem
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  height: 100vh;
-  width: 50%; /* Dividindo a tela ao meio horizontalmente */
-  position: fixed;
-  z-index: -2;
-`;
 
 
  export const DivPrincipal = styled.body`
@@ -87,5 +64,14 @@ export const SecondBackground = styled.div`//teste
 export const H5Titulo = styled.h1`
     color: black;
     margin-top: 200px;
+
+`
+
+export const DivCardGrid = styled.div`
+
+  display: grid;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
 
 `

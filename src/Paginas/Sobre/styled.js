@@ -10,6 +10,7 @@ export const Section = styled.section`
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
   left: 0; 
   right: 0;
+  margin: 0;
   margin-top: 350px;
   position: relative;
   padding: 0;

@@ -1,5 +1,5 @@
 import React from "react"
-import { Section, DivPrincipal, H5Titulo } from "./styled"
+import { Section, DivPrincipal, H5Titulo, DivCardGrid } from "./styled"
 import { HeaderFixo } from "../../Components/Header/Header"
 
 
@@ -26,7 +26,7 @@ export const Home = () =>{
                anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer
                serviços de excepcional qualidade, incluindo0:
             </p> 
-            
+            <DivCardGrid>
             <p className="card">01 Reforma de Sofás, Cadeiras e Poltronas: Especializados em todos os modelos 
                 e dimensões, inclusive para Sofás e Poltronas Plenitude.
             </p>
@@ -43,6 +43,7 @@ export const Home = () =>{
             <p className="card">05 Combo Especial "Conserta & Limpa": Restaure o brilho
                 do seu estofado com nossos serviços combinados.
             </p>
+            </DivCardGrid>
             </div>
             
             <div>
