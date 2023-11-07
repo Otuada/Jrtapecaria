@@ -1,5 +1,5 @@
 import React from "react"
-import { Section, DivPrincipal, H5Titulo, DivCardGrid } from "./styled"
+import { Section, H5Titulo, DivCardGrid, DivFundo } from "./styled"
 import { HeaderFixo } from "../../Components/Header/Header"
 
 
@@ -11,16 +11,16 @@ export const Home = () =>{
     
     return(
       
-      <DivPrincipal>
+      <DivFundo>
       
        <HeaderFixo></HeaderFixo>
         
-        <H5Titulo>Solução para seu movel veio</H5Titulo>
+        <H5Titulo>Solução para seu conforto</H5Titulo>
         <Section>
           
           
             <h4> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </h4>
-            <div id="cartao">
+            <div>
               
             <p className="card">Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
                anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer
@@ -69,7 +69,7 @@ export const Home = () =>{
           
        
         
-        </DivPrincipal>
+        </DivFundo>
     
     
      
