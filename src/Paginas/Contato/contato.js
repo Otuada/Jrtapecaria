@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faEnvelope, faPhone, faPen, faComments } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faEnvelope, faPhone, faPen, faComments, faMapMarker  } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp} from '@fortawesome/free-brands-svg-icons'; 
 import { HeaderFixo } from "../../Components/Header/Header";
 import {Form} from "./styled";
+import Bchat from "../../Components/chat/Bchat";
 
 export const Contato =() =>{
 
@@ -25,7 +27,7 @@ export const Contato =() =>{
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode fazer algo com os dados do formulário, como enviá-los para um servidor ou realizar alguma ação local.
+    // dados do formulário, para enviar
     console.log(formData);
   };
 
@@ -61,26 +63,30 @@ export const Contato =() =>{
     
     </div>
     
-      <div id='info'>
-      <h1>Nossos Serviços</h1>
-      <ul>
-        <li>Tapeçaria</li>
-        <li>Restauração</li>
-        <li>Reforma de Móveis</li>
-        <li>Marcenaria Artesanal</li>
-      </ul>
+      <div id='info' className="form-container">
+        <h1>Nossos Serviços</h1>
+        <ul>
+          <li>Tapeçaria</li>
+          <li>Restauração</li>
+          <li>Reforma de Móveis</li>
+          <li>Marcenaria Artesanal</li>
+        </ul>      
+      </div>
 
-      <h1>Informações de Contato</h1>
+      <div id='info' className="form-container">
+        <h1>Informações de Contato</h1>
       <p>Acabamentos de qualidade e excelência no atendimento.</p>
-      <p>Endereço: Alameda dos Nhambiquaras, 912, Moema - São Paulo - SP</p>
-      <p>Fone: 11 5052-9480</p>
-      <p>WhatsApp: 11 94979-1818</p>
-      <p>WhatsApp: 11 98292-6363</p>
-      <p>E-mail: sac@tapecariacasadoartesao.com.br</p>
-    </div>
+      <p><FontAwesomeIcon icon={faMapMarker} style={{ marginRight: '10px', color:'white'  }} /> Endereço: Alameda dos Nhambiquaras, 912, Moema - São Paulo - SP</p>
+      <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: 11 5052-9480</p>
+      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 94979-1818</p>
+      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 98292-6363</p>
+      <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: sac@tapecariacasadoartesao.com.br</p>
+      </div>
+    
+    
 
 
-
+         <Bchat></Bchat>
       </div>
      
 

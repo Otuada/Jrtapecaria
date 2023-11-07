@@ -5,14 +5,16 @@ export const Form = styled.div`
 #container{
    display:flex;
    flex-wrap: wrap;
-   align-items: center;
-   padding: 60px;
+   align-items: stretch;
+   
+   padding: 10px;
+   margin:3% auto;
 }
 .form-container {
-
-   width: 40%;
-   margin: 5% auto;
-   padding: 100px;
+   
+   width: 70%;
+   margin: 1% auto;
+   padding: 20px;
    border: 1px solid #ccc;
    border-radius: 5px;
    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -20,6 +22,8 @@ export const Form = styled.div`
  
  .form-field {
    margin-bottom: 10px;
+   margin-left: 25%;
+  
  
  }
  
@@ -30,7 +34,9 @@ export const Form = styled.div`
  }
  
  .input-field {
-   width: 100%;
+   
+   width: 70%;
+   
    padding: 5px;
    border: 1px solid #ccc;
    border-radius: 3px;
@@ -44,23 +50,29 @@ export const Form = styled.div`
    border-radius: 5px;
    padding: 10px 20px;
    cursor: pointer;
+   margin-left: 25%;
  }
  
  .submit-button:hover {
    background-color: #0056b3;
+   
  }
 
  h1{
-   font-size:1.5vw;
+   font-size:1.8vw;
+   text-align: center;
  }
 
  .message{
    padding-bottom: 60px;
  }
 
- #info{
-   font-size:1.6vw;
- }
+#info{
+  font-size:1.5vw;
+  
+}
+
+ 
  
 `
  
