@@ -37,7 +37,7 @@ export const Chat = styled.button`
   
   .chat-button:hover {
     background-color: transparent;
-    transform: scale(1.5); 
+    transform: scale(1.2); 
     animation: none;
   }
   

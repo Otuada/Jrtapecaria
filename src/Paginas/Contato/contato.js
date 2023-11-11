@@ -39,7 +39,7 @@ export const Contato =() =>{
     e.preventDefault();
     
     sendEmail();
-    setFormData('');
+    setFormData({});
   
   };
 
