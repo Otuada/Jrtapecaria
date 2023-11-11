@@ -7,16 +7,17 @@ export const Form = styled.div`
    flex-wrap: wrap;
    align-items: stretch;
    
-   padding: 10px;
+   padding: 2%;
    margin:3% auto;
 }
 .form-container {
    
-   width: 70%;
+   width: 100%;
    margin: 1% auto;
    padding: 20px;
    border: 1px solid #ccc;
    border-radius: 5px;
+   background-color: white;
    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
  }
  

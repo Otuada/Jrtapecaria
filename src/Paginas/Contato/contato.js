@@ -5,6 +5,7 @@ import { faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import { HeaderFixo } from "../../Components/Header/Header";
 import {Form} from "./styled";
 import Bchat from "../../Components/chat/Bchat";
+import emailjs from 'emailjs-com';
 
 export const Contato =() =>{
 
@@ -25,10 +26,21 @@ export const Contato =() =>{
     });
   };
 
-  const handleSubmit = (e) => {
+  const sendEmail = async () => {
+    try {
+      await emailjs.send('service_39lfdwo', 'template_dle28kl', formData, 'NT1-Mf8WQBOZJLd2D');
+      console.log('E-mail enviado com sucesso!');
+    } catch (error) {
+      console.error('Erro ao enviar o e-mail:', error);
+    }
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // dados do formulário, para enviar
-    console.log(formData);
+    
+    sendEmail();
+    setFormData('');
+  
   };
 
    
@@ -76,7 +88,7 @@ export const Contato =() =>{
       <div id='info' className="form-container">
         <h1>Informações de Contato</h1>
       <p>Acabamentos de qualidade e excelência no atendimento.</p>
-      <p><FontAwesomeIcon icon={faMapMarker} style={{ marginRight: '10px', color:'white'  }} /> Endereço: Alameda dos Nhambiquaras, 912, Moema - São Paulo - SP</p>
+      <p><FontAwesomeIcon icon={faMapMarker} style={{ marginRight: '10px', color:'black'  }} /> Endereço: Alameda dos Nhambiquaras, 912, Moema - São Paulo - SP</p>
       <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: 11 5052-9480</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 94979-1818</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 98292-6363</p>
