@@ -8,7 +8,7 @@ export const Form = styled.div`
    align-items: stretch;
    
    padding: 2%;
-   margin:3% auto;
+   margin:5% auto;
 }
 .form-container {
    
@@ -17,7 +17,7 @@ export const Form = styled.div`
    padding: 20px;
    border: 1px solid #ccc;
    border-radius: 5px;
-   background-color: white;
+   
    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
  }
  
@@ -70,6 +70,10 @@ export const Form = styled.div`
 
 #info{
   font-size:1.5vw;
+  
+}
+
+.Image{
   
 }
 

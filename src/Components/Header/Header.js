@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom"
 import { DivBotoes, DivHeader } from "./styled";
 
 
+
 export const HeaderFixo = () =>{
 
 
@@ -24,12 +25,14 @@ export const HeaderFixo = () =>{
     const toHome = () =>{
         goToHome(navigate)
     }
+
+    const Logo = require('../../img/logo.jpg');
     return (
 <div>
     <DivHeader>
     
       
-           <img src="" alt="Logo Jr" onClick={toHome}/>
+           <img className="Image" src={Logo} alt="Logo Jr" onClick={toHome}/>
                              
     
     <DivBotoes>

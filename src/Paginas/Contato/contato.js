@@ -43,6 +43,8 @@ export const Contato =() =>{
   
   };
 
+  const imagem = require('../../Assents/foto1.jpg');
+
    
     return(
   <div>
@@ -93,10 +95,13 @@ export const Contato =() =>{
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 94979-1818</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 98292-6363</p>
       <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: sac@tapecariacasadoartesao.com.br</p>
+      <img className="Image" src={imagem} alt="contato" />
       </div>
-    
-    
 
+    
+    
+    
+      
 
          <Bchat></Bchat>
       </div>
