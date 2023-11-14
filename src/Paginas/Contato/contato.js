@@ -6,6 +6,8 @@ import { HeaderFixo } from "../../Components/Header/Header";
 import {Form} from "./styled";
 import Bchat from "../../Components/chat/Bchat";
 import emailjs from 'emailjs-com';
+import { Footer } from "../../Components/Footer/Footer"
+
 
 export const Contato =() =>{
 
@@ -90,11 +92,11 @@ export const Contato =() =>{
       <div id='info' className="form-container">
         <h1>Informações de Contato</h1>
       <p>Acabamentos de qualidade e excelência no atendimento.</p>
-      <p><FontAwesomeIcon icon={faMapMarker} style={{ marginRight: '10px', color:'black'  }} /> Endereço: Alameda dos Nhambiquaras, 912, Moema - São Paulo - SP</p>
-      <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: 11 5052-9480</p>
-      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 94979-1818</p>
-      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 98292-6363</p>
-      <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: sac@tapecariacasadoartesao.com.br</p>
+      <p><FontAwesomeIcon icon={faMapMarker} style={{ marginRight: '10px', color:'black'  }} /> Endereço: R. Belo Horizonte, 36 - Parque Sao George, Cotia - SP, 06708-230</p>
+      <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: (11) 4702-5169</p>
+      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 000000000</p>
+      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 000000000</p>
+      <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: JR Tapeçaria</p>
       <img className="Image" src={imagem} alt="contato" />
       </div>
 
@@ -109,7 +111,7 @@ export const Contato =() =>{
 
     
     </Form>         
-    
+    <Footer></Footer>
   </div>
     )
 }

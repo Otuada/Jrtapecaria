@@ -1,6 +1,7 @@
 import React from "react"
 import { Section, H5Titulo, DivCardGrid, DivFundo } from "./styled"
 import { HeaderFixo } from "../../Components/Header/Header"
+import { Footer } from "../../Components/Footer/Footer"
 
 
 
@@ -9,6 +10,7 @@ import { HeaderFixo } from "../../Components/Header/Header"
 export const Home = () =>{
     
     
+
     return(
       
       <DivFundo>
@@ -68,7 +70,7 @@ export const Home = () =>{
         </Section>
           
        
-        
+        <Footer></Footer>
         </DivFundo>
     
     

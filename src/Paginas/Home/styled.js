@@ -3,20 +3,18 @@ import styled from "styled-components";
 
 
 export const Section = styled.section`
- display: flex;
- flex-direction: column;
- align-items: center;
+ 
+ 
   
-  
-  
-  width: 100%; /* Em vez de 50%, para ocupar a largura total */
-  background-color: white;
-  border: 1px solid black;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
   left: 0; 
   right: 0;
   margin: 0;
-  margin-top: 150px;
+  margin-top: 350px;
   position: relative;
   padding: 0;
 
@@ -31,14 +29,15 @@ export const Section = styled.section`
   .card {
       
   
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 25px;
-    margin: 4%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 100%; /* Calcula 1/3 da largura menos margens */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: calc(37% - 20px); /* Calcula 1/3 da largura menos margens */
+  font-size: 19px; /* Tamanho da fonte */
 
     
     font-size: 100%; /* Tamanho da fonte */
@@ -93,7 +92,7 @@ export const Section = styled.section`
 export const DivFundo = styled.body`
 
     
-   background-image: url('../../img/3ded0ee9-29ec-4298-812b-75ed7582f2cf.jpg');
+   background-image: url('../../img/sofa5.jpeg');
    background-attachment: fixed;
    background-position: center center;     
    margin: 0;
@@ -101,35 +100,18 @@ export const DivFundo = styled.body`
    display: flex;
    flex-wrap: wrap;
    justify-content: center;   
-   padding:70px;        
+   padding:0px;        
    font-family: Arial, sans-serif;      
    margin: 0; 
 
 `;
 
 
-
-
-
-
-
-
-
- /*export const DivPrincipal = styled.div`
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  
-  
- 
-  
-
-`;*/
-
 export const H5Titulo = styled.h1`
     color: black;
     margin-top: 200px;
-
+   
+    
 `
 
 export const DivCardGrid = styled.div`

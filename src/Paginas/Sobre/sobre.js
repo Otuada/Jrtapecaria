@@ -1,6 +1,8 @@
 import React from "react";
 import { HeaderFixo } from "../../Components/Header/Header"
 import { Section } from '../Sobre/styled'
+import { Footer } from "../../Components/Footer/Footer"
+
 
 export const Sobre =() =>{
    
@@ -46,6 +48,7 @@ export const Sobre =() =>{
             </p>
             
             </Section>
+         <Footer></Footer>
         </div>
     )
 }
