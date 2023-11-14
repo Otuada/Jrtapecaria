@@ -73,11 +73,17 @@ export const Form = styled.div`
   
 }
 
-.Image{
-  
+.Image {
+  width: auto;
+  max-width: auto%;
+  height: auto;
+  margin:10px;
+  border: 2px solid #ddd; /* Cor e largura da borda */
+  border-radius: 8px;     /* Borda arredondada */
+  transition: border 0.3s ease-in-out; /* Adiciona uma transição suave para a borda */
 }
 
- 
+
  
 `
  

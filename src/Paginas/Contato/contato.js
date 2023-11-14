@@ -7,6 +7,9 @@ import {Form} from "./styled";
 import Bchat from "../../Components/chat/Bchat";
 import emailjs from 'emailjs-com';
 
+//imagens
+
+
 export const Contato =() =>{
 
   const [formData, setFormData] = useState({});
@@ -43,7 +46,7 @@ export const Contato =() =>{
   
   };
 
-  const imagem = require('../../Assents/foto1.jpg');
+  const imagem = require('../../Assents/ferramentas.jpg');
 
    
     return(
@@ -96,6 +99,8 @@ export const Contato =() =>{
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 98292-6363</p>
       <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: sac@tapecariacasadoartesao.com.br</p>
       <img className="Image" src={imagem} alt="contato" />
+      <img className="Image" src={imagem} alt="contato" />
+      
       </div>
 
     
