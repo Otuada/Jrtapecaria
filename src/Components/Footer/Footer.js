@@ -7,7 +7,8 @@ export const Footer = () => {
     
     <FooterContainer>
       
-      <p>&copy; 2023 Jr. Tapeçaria. Todos os direitos reservados.</p>
+      <p>Todos os direitos reservados. &copy; 2023 Jr Tapeçaria.</p>
+      <p>Desenvolvida pela Mobol Tech Solutions</p>
     </FooterContainer>
     
   );

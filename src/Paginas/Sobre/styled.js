@@ -6,7 +6,7 @@ export const Section = styled.section`
   width: 100%;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 0px;
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
   left: 0; 
   right: 0;

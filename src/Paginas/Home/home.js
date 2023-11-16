@@ -1,5 +1,5 @@
 import React from "react"
-import { Section, H5Titulo, DivCardGrid, DivFundo } from "./styled"
+import { Section, H5Titulo, ImgSection, DivCardGrid, DivFundo, DivTxtHistoria, H4Section, PSection,ImagemDeFundo } from "./styled"
 import { HeaderFixo } from "../../Components/Header/Header"
 import { Footer } from "../../Components/Footer/Footer"
 
@@ -12,22 +12,22 @@ export const Home = () =>{
     
 
     return(
-      
-      <DivFundo>
-      
+      <div>
+      <DivFundo></DivFundo>
+       <ImagemDeFundo src={require('../../img/sofa5.jpeg')} alt="Sofá" />
        <HeaderFixo></HeaderFixo>
         
         <H5Titulo>Solução para seu conforto</H5Titulo>
         <Section>
           
           
-            <h4> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </h4>
+            <H4Section> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </H4Section>
             <div>
               
-            <p className="card">Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
+            <PSection className="card">Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
                anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer
-               serviços de excepcional qualidade, incluindo0:
-            </p> 
+               serviços de excepcional qualidade, incluindo:
+            </PSection> 
             <DivCardGrid>
             <p className="card">01 Reforma de Sofás, Cadeiras e Poltronas: Especializados em todos os modelos 
                 e dimensões, inclusive para Sofás e Poltronas Plenitude.
@@ -45,6 +45,8 @@ export const Home = () =>{
             <p className="card">05 Combo Especial "Conserta & Limpa": Restaure o brilho
                 do seu estofado com nossos serviços combinados.
             </p>
+            
+            <ImgSection src={require('../../img/sofa2.jpeg')} alt="sofa3"/>
             </DivCardGrid>
             </div>
             
@@ -63,17 +65,37 @@ export const Home = () =>{
             </p>
             </div>
                      
-         
-            
 
         
         </Section>
-          
-       
+          <DivTxtHistoria>
+         <p>
+         A história da tapeçaria remonta a tempos antigos, tendo
+ desempenhado um papel crucial como expressão artística e funcionalidade 
+ ao longo das eras. Originada em diferentes culturas ao redor do mundo, 
+ a tapeçaria evoluiu de uma forma primitiva de revestimento de paredes 
+ para uma manifestação sofisticada de habilidade e criatividade.
+
+Na Idade Média, as tapeçarias eram frequentemente utilizadas para 
+adornar castelos e catedrais, contando histórias épicas e retratando cenas
+ do cotidiano. Com o Renascimento, a tapeçaria tornou-se ainda mais 
+ refinada, incorporando técnicas complexas e padrões intrincados.
+
+Durante os séculos seguintes, a tapeçaria continuou a evoluir, 
+adaptando-se às mudanças de estilo e preferências estéticas. No século XX,
+artistas modernos começaram a explorar a tapeçaria como meio artístico,
+incorporando novos materiais e experimentando com formas abstratas.
+
+Hoje, a tapeçaria mantém sua relevância como uma forma de expressão 
+artística, decorativa e funcional, preservando ao longo de sua história 
+a tradição e a inovação.
+         </p>
+            
+         </DivTxtHistoria>      
         <Footer></Footer>
-        </DivFundo>
+        
     
-    
+        </div>
      
     )
 }

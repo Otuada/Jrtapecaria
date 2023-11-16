@@ -75,7 +75,7 @@ export const Form = styled.div`
 
 .Image {
   width: auto;
-  max-width: auto%;
+  max-width: auto;
   height: auto;
   margin:10px;
   border: 2px solid #ddd; /* Cor e largura da borda */

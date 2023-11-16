@@ -12,3 +12,4 @@ export const FooterContainer = styled.footer`
   margin-right: 0%;
   
 `;
+

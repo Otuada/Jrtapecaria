@@ -9,12 +9,12 @@ export const Section = styled.section`
   width: 100%;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 0px;
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
   left: 0; 
   right: 0;
   margin: 0;
-  margin-top: 350px;
+  margin-top: 190px;
   position: relative;
   padding: 0;
 
@@ -89,29 +89,57 @@ export const Section = styled.section`
 
 
 `
-export const DivFundo = styled.body`
 
-    
-   background-image: url('../../img/sofa5.jpeg');
-   background-attachment: fixed;
-   background-position: center center;     
-   margin: 0;
-   padding: 0;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;   
-   padding:0px;        
-   font-family: Arial, sans-serif;      
-   margin: 0; 
+export const DivFundo = styled.div`
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Para evitar a barra de rolagem horizontal */
+  position: relative;
+`;
 
+export const ImagemDeFundo = styled.img`
+  width: 100%;
+  height: 100%; /* Para manter a proporção da imagem */
+  position: fixed;
+  z-index: -1;
 `;
 
 
 export const H5Titulo = styled.h1`
     color: black;
     margin-top: 200px;
+    text-align: center;
+    font-family: 'Dorsa', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: yellow;
    
     
+`
+export const ImgSection = styled.img`
+   width: 150px; /* Ajuste conforme necessário */
+   height: auto;
+
+`
+
+export const DivTxtHistoria =  styled.div`
+    background-color: brown;
+
+
+
+`
+
+export const H4Section = styled.h4`
+       text-align: center;
+
+`
+export const PSection = styled.p`
+      font-size: 3em;
+
 `
 
 export const DivCardGrid = styled.div`
