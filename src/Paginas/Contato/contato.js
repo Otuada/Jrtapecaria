@@ -9,7 +9,7 @@ import emailjs from 'emailjs-com';
 import { Footer } from "../../Components/Footer/Footer"
 
 
-//imagens
+
 
 
 export const Contato =() =>{
@@ -48,7 +48,7 @@ export const Contato =() =>{
   
   };
 
-  const imagem = require('../../Assents/ferramentas.jpg');
+
 
    
     return(
@@ -100,8 +100,7 @@ export const Contato =() =>{
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 000000000</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 000000000</p>
       <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: JR Tapeçaria</p>
-      <img className="Image" src={imagem} alt="contato" />
-      <img className="Image" src={imagem} alt="contato" />
+      
       
       </div>
 

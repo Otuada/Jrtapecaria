@@ -69,7 +69,11 @@ export const Form = styled.div`
  }
 
 #info{
-  font-size:1.5vw;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:1.2vw;
   
 }
 
@@ -83,6 +87,34 @@ export const Form = styled.div`
   transition: border 0.3s ease-in-out; /* Adiciona uma transição suave para a borda */
 }
 
+ul {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  margin-right: 10px;
+}
+
+ul li {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+ul :hover {
+  
+  background-color: red;
+}
 
  
 `
