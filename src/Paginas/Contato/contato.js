@@ -7,6 +7,7 @@ import {Form} from "./styled";
 import Bchat from "../../Components/chat/Bchat";
 import emailjs from 'emailjs-com';
 import { Footer } from "../../Components/Footer/Footer"
+import Cards from "../../Components/Cards/Cards";
 
 
 
@@ -83,13 +84,8 @@ export const Contato =() =>{
     </div>
     
       <div id='info' className="form-container">
-        <h1>Nossos Serviços</h1>
-        <ul>
-          <li>Tapeçaria</li>
-          <li>Restauração</li>
-          <li>Reforma de Móveis</li>
-          <li>Marcenaria Artesanal</li>
-        </ul>      
+          
+        <Cards></Cards>  
       </div>
 
       <div id='info' className="form-container">

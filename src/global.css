@@ -1,4 +1,12 @@
 body{
-    margin:auto;
+    
+    margin:0;
     padding: 0;
+    font-family: 'Arial', sans-serif; /* Escolha uma fonte adequada */
+ 
+    line-height: 1.6; /* Define a altura da linha para melhorar a legibilidade */
+    color: #333; /* Define a cor do texto */
+    background-color: #fff; /* Define a cor de fundo da página */
+    
+    
 }
