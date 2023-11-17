@@ -1,7 +1,8 @@
 import React from "react";
 import { HeaderFixo } from "../../Components/Header/Header"
-import { Section } from '../Sobre/styled'
+import { Section, ImagemDeFundo, DivFundo, TituloH1, DivSinistra } from '../Sobre/styled'
 import { Footer } from "../../Components/Footer/Footer"
+import Bchat from "../../Components/chat/Bchat";
 
 
 export const Sobre =() =>{
@@ -10,8 +11,11 @@ export const Sobre =() =>{
     return(
         <div>
             <HeaderFixo></HeaderFixo>
+            <DivFundo>
+            <ImagemDeFundo src={require('../../img/sofa2.jpeg')} alt="Sofá"/>
             <Section>
-            <h1>Jr Tapeçaria Sobre</h1>
+                <Bchat/>
+            <TituloH1>Jr Tapeçaria Sobre</TituloH1>
             <h1>Missão</h1>
             <p className="card">Nossa missão é preservar a arte e as técnicas tradicionais na nossa tapeçaria,
                 mantendo viva a herança cultural e histórica do nosso trabalho artistico
@@ -48,6 +52,12 @@ export const Sobre =() =>{
             </p>
             
             </Section>
+            </DivFundo>
+            <DivSinistra>
+            
+            <ImagemDeFundo src={require('../../img/sofa5.jpeg')} alt="Sofá"/>
+            
+            </DivSinistra>
          <Footer></Footer>
         </div>
     )

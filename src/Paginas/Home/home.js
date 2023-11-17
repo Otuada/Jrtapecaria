@@ -2,7 +2,7 @@ import React from "react"
 import { Section, H5Titulo, ImgSection, DivCardGrid, DivFundo, DivTxtHistoria, H4Section, PSection,ImagemDeFundo } from "./styled"
 import { HeaderFixo } from "../../Components/Header/Header"
 import { Footer } from "../../Components/Footer/Footer"
-
+import Bchat from "../../Components/chat/Bchat";
 
 
 
@@ -16,11 +16,11 @@ export const Home = () =>{
       <DivFundo></DivFundo>
        <ImagemDeFundo src={require('../../img/sofa5.jpeg')} alt="Sofá" />
        <HeaderFixo></HeaderFixo>
-        
+       
         <H5Titulo>Solução para seu conforto</H5Titulo>
         <Section>
           
-          
+        <Bchat/>
             <H4Section> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </H4Section>
             <div>
               

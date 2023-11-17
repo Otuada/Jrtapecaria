@@ -110,7 +110,7 @@ export const ImagemDeFundo = styled.img`
 
 
 export const H5Titulo = styled.h1`
-    color: black;
+    
     margin-top: 200px;
     text-align: center;
     font-family: 'Dorsa', sans-serif;
