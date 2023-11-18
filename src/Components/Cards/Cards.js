@@ -6,22 +6,22 @@ const Cards = () => {
     {
       title: 'Tapeçaria',
       description: 'Somos especializados em tapeçaria de estofados, reforma de móveis estofados, tapeçaria de sofás, cadeiras e tapeçaria fina.',
-      image: require('../../img/logo.jpg'),
+      image: require('../../Assents/img2.jpg'),
     },
     {
       title: 'Restauração',
       description: 'Especializada na reforma de cadeira, manutenção de poltronas, substituição dos revestimentos e conserto da base da cadeira.',
-      image: require('../../img/logo.jpg'),
+      image: require('../../Assents/img6.jpg'),
     },
     {
       title: 'Capas Para Sofás',
       description: 'Confeccionamos capas feitas sob-medida que caem perfeitamente em todos os modelos de sofás, pufs, poltronas e estofados.',
-      image: require('../../img/logo.jpg'),
+      image: require('../../Assents/img1.jpg'),
     },
     {
         title: 'Cabeceiras',
         description: 'Cabeceira sob medidas para atribuir maior destaque na decoração do seu quarto. Ela decora o ambiente e proporciona mais conforto.',
-        image: require('../../img/logo.jpg'),
+        image: require('../../Assents/img8.jpg'),
       },
     
   ];

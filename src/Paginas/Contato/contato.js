@@ -8,6 +8,7 @@ import Bchat from "../../Components/chat/Bchat";
 import emailjs from 'emailjs-com';
 import { Footer } from "../../Components/Footer/Footer"
 import Cards from "../../Components/Cards/Cards";
+import Maps from "../../Components/maps/Maps";
 
 
 
@@ -89,15 +90,21 @@ export const Contato =() =>{
       </div>
 
       <div id='info' className="form-container">
-        <h1>Informações de Contato</h1>
-      <p>Acabamentos de qualidade e excelência no atendimento.</p>
+        <h1>Localização</h1>
+        <h1>Entre em contato conosco, teremos o maior prazer em atendê-lo.</h1>
+      
+      <Maps></Maps>
+      
       <p><FontAwesomeIcon icon={faMapMarker} style={{ marginRight: '10px', color:'black'  }} /> Endereço: R. Belo Horizonte, 36 - Parque Sao George, Cotia - SP, 06708-230</p>
-      <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: (11) 4702-5169</p>
+      
+      
+      </div>
+      
+      <div id='info' className="form-container">
+        <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: (11) 4702-5169</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 000000000</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 000000000</p>
       <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: JR Tapeçaria</p>
-      
-      
       </div>
 
     

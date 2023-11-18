@@ -16,9 +16,12 @@ export const Card = styled.div`
     align-items:center;
     margin: 0px;
     padding: 15px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   }
   
   h2 {
