@@ -50,15 +50,17 @@ export const Contato =() =>{
   
   };
 
-
+ 
 
    
     return(
   <div>
     <HeaderFixo></HeaderFixo>
     <Form>
-      <div id='container'> 
-      
+      <div id='container'>
+        
+     
+    
       <div className="form-container">
         <h1>ENTRE EM CONTATO CONOSCO!</h1>
       <form onSubmit={handleSubmit}>
@@ -97,14 +99,17 @@ export const Contato =() =>{
       
       <p><FontAwesomeIcon icon={faMapMarker} style={{ marginRight: '10px', color:'black'  }} /> Endereço: R. Belo Horizonte, 36 - Parque Sao George, Cotia - SP, 06708-230</p>
       
-      
-      </div>
-      
-      <div id='info' className="form-container">
-        <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: (11) 4702-5169</p>
+        
+      <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: (11) 4702-5169</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 000000000</p>
       <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 000000000</p>
       <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: JR Tapeçaria</p>
+      </div>
+      
+      <div  className="form-container">
+      
+      
+     
       </div>
 
     

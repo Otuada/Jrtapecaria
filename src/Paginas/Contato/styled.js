@@ -15,10 +15,10 @@ export const Form = styled.div`
    width: 100%;
    margin: 1% auto;
    padding: 20px;
-   border: 1px solid #ccc;
+   border:none;
    border-radius: 5px;
    background-color: #FFFFFF;
-   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   
  }
  
  .form-field {
@@ -75,6 +75,11 @@ export const Form = styled.div`
   align-items: center;
   font-size:1.2vw;
   
+}
+
+
+img{
+  width:cover;
 }
 
 
