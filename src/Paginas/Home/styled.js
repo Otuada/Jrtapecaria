@@ -1,6 +1,24 @@
 import styled from "styled-components";
 
+export const SectionContador = styled.section`
+  
 
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
+  left: 0; 
+  right: 0;
+  margin: 0;
+  margin-top: 0%;
+  position: relative;
+  padding: 0;
+
+
+`
 
 export const Section = styled.section`
  
@@ -138,8 +156,22 @@ export const H4Section = styled.h4`
 
 `
 export const PSection = styled.p`
-      font-size: 3em;
+     
+     
+     
+     background-color: #fff;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     transition: 0.3s;
+     width: 95%;//calc(37% - 20px); /* Calcula 1/3 da largura menos margens */
+     font-size: 19px; /* Tamanho da fonte */
 
+    
+    font-size: 100%; /* Tamanho da fonte */
+  
 `
 
 export const DivCardGrid = styled.div`
@@ -148,5 +180,5 @@ export const DivCardGrid = styled.div`
   grid-column-gap: 70px;
   grid-row-gap: 70px;
   grid-template-columns: repeat(3, 1fr);
-
+  margin-top: 5%;
 `

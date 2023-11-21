@@ -1,9 +1,10 @@
 import React from "react"
-import { Section, H5Titulo, ImgSection, DivCardGrid, DivFundo, DivTxtHistoria, H4Section, PSection,ImagemDeFundo } from "./styled"
+import { Section, H5Titulo, ImgSection, DivCardGrid, DivFundo, SectionContador, DivTxtHistoria, H4Section, PSection,ImagemDeFundo } from "./styled"
 import { HeaderFixo } from "../../Components/Header/Header"
 import { Footer } from "../../Components/Footer/Footer"
 import Bchat from "../../Components/chat/Bchat";
-
+import { Contador } from '../../Components/Contador/contador'
+import { Carousel } from '../../Components/Carrossel/carrossel'
 
 
 
@@ -20,14 +21,14 @@ export const Home = () =>{
         <H5Titulo>Solução para seu conforto</H5Titulo>
         <Section>
           
-        <Bchat/>
             <H4Section> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </H4Section>
             <div>
               
-            <PSection className="card">Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
+            <PSection>Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta
                anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer
                serviços de excepcional qualidade, incluindo:
             </PSection> 
+             <Carousel/>
             <DivCardGrid>
             <p className="card">01 Reforma de Sofás, Cadeiras e Poltronas: Especializados em todos os modelos 
                 e dimensões, inclusive para Sofás e Poltronas Plenitude.
@@ -51,6 +52,7 @@ export const Home = () =>{
             </div>
             
             <div>
+        <Bchat/>
             
             <p className="card">Para uma avaliação rápida e precisa, gentilmente envie
                fotos do seu estofado pelo WhatsApp (11) 9 3937 2281. 
@@ -67,7 +69,14 @@ export const Home = () =>{
                      
 
         
+        
         </Section>
+        <SectionContador>
+             <Contador limit={3200} message="Clientes satisfeitos" />
+             <Contador limit={30} message="anos de experiencia" />
+             <Contador limit={1000} message="projetos concluidos" />
+             <Contador limit={200} message="moveis artesanais criados" />
+        </SectionContador>
           <DivTxtHistoria>
          <p>
          A história da tapeçaria remonta a tempos antigos, tendo
