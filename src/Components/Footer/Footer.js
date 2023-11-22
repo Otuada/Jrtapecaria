@@ -20,9 +20,6 @@ export const Footer = () => {
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTwitter} />
-        </a>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
         
