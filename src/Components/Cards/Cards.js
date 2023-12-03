@@ -28,7 +28,7 @@ const Cards = () => {
 
   return (
     <Card>
-        <h1>Nossos Serviços</h1>
+        <h1>Veja fotos de reforma consertos e limpeza feitas pela Tapeçaria </h1>
     <div className="servicos-container">
       
       {servicosData.map((servico, index) => (

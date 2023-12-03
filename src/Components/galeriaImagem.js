@@ -31,7 +31,8 @@ const Imagem = styled.img`
 const GaleriaImagens = () => {
   return (
     <div>
-      <h2>Galeria de Imagens</h2>
+      <h2>Seu sofá é bom e você deseja restaurá-lo?
+Nós temos a solução!</h2>
       <GaleriaContainer>
         {imagens.map((imagem, index) => (
           <Imagem key={index} src={imagem} alt={`foto ${index}`} />
