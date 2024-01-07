@@ -125,6 +125,16 @@ export const ImagemDeFundo = styled.img`
   position: fixed;
   z-index: -1;
 `;
+export const TituloH1Grid = styled.h1`
+   
+    
+    color: black;
+    text-align: center;
+    font-family: 'Dorsa', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+
+`
 
 
 export const H5Titulo = styled.h1`
@@ -134,8 +144,7 @@ export const H5Titulo = styled.h1`
     font-family: 'Dorsa', sans-serif;
     font-size: 100px;
     font-weight: 400;
-    color: yellow;
-   
+    color: yellow; 
     
 `
 export const ImgSection = styled.img`
@@ -145,9 +154,9 @@ export const ImgSection = styled.img`
 `
 
 export const DivTxtHistoria =  styled.div`
-    background-color: brown;
-
-
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
 
 `
 
@@ -158,7 +167,6 @@ export const H4Section = styled.h4`
 export const PSection = styled.p`
      
      
-     
      background-color: #fff;
      border: 1px solid #ccc;
      border-radius: 5px;
@@ -167,10 +175,8 @@ export const PSection = styled.p`
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      transition: 0.3s;
      width: 95%;//calc(37% - 20px); /* Calcula 1/3 da largura menos margens */
-     font-size: 19px; /* Tamanho da fonte */
-
-    
-    font-size: 100%; /* Tamanho da fonte */
+     font-size: 19px; /* Tamanho da fonte */    
+     font-size: 100%; /* Tamanho da fonte */
   
 `
 
@@ -181,4 +187,11 @@ export const DivCardGrid = styled.div`
   grid-row-gap: 70px;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 5%;
+`
+
+export const HistoriaP = styled.p`
+  
+   margin: 3%;
+   background-color: #fff;
+
 `

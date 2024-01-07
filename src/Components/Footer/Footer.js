@@ -1,7 +1,7 @@
 import React from 'react';
 import { FooterContainer } from "./styled"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebook, faWhatsapp,faTwitter} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import {  faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -10,13 +10,13 @@ export const Footer = () => {
     
     <FooterContainer>
        <div>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/jr_atelietapecaria/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/5511939372281" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">

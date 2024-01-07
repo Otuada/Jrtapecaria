@@ -22,12 +22,20 @@ export const Carousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
-    variableWidth: true,
+    
     centerPadding: "50px", 
   };
 
   const estiloContainer = {
     paddingBottom: '150px',
+  };
+  const estiloImagem = {
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    minHeight: '100px',
+    minWidth: '100px',
+    
   };
 
   return (
@@ -38,7 +46,7 @@ export const Carousel = () => {
             <img
               src={imagem}
               alt={`Imagem ${index + 1}`}
-              style={{ minHeight: '300px', minWidth: '300px' }}
+              style={ estiloImagem }
             />
           </div>
         ))}

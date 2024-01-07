@@ -19,7 +19,7 @@ const Cards = () => {
       image: require('../../Assents/img1.jpg'),
     },
     {
-        title: 'Cabeceiras',
+        title: 'Moveis unicos',
         description: 'Cabeceira sob medidas para atribuir maior destaque na decoração do seu quarto. Ela decora o ambiente e proporciona mais conforto.',
         image: require('../../Assents/img8.jpg'),
       },

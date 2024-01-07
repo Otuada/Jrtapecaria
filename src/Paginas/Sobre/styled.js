@@ -3,6 +3,9 @@ import styled from "styled-components";
 
 
 export const Section = styled.section`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -55,19 +58,25 @@ export const DivFundo = styled.div`
   overflow-x: hidden; /* Para evitar a barra de rolagem horizontal */
   position: relative;
 `;
-export const DivSinistra = styled.div`
-    width: 40%;
+export const DivSinistra = styled.section`
+   width: 40%;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0px;
   box-shadow: 2px 10px 10px rgba(0, 0, 5, 0.1);
-  left: 0; 
+  left: 0;
   right: 0;
   margin: 0;
-  margin-top: 1450px;
-  position: relative;
+  position: absolute;
+  top: 0;
   padding: 0;
+  z-index: 0;
 
+
+  > img {
+    position: absolute;
+    top: 0;
+  }
 
 `
 export const ImagemDeFundo = styled.img`
@@ -76,3 +85,4 @@ export const ImagemDeFundo = styled.img`
   position: fixed;
   z-index: -1;
 `;
+

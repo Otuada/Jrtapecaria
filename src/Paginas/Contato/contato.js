@@ -101,9 +101,9 @@ export const Contato =() =>{
       
         
       <p><FontAwesomeIcon icon={faPhone } style={{ marginRight: '10px' }}/>Fone: (11) 4702-5169</p>
-      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 000000000</p>
-      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 000000000</p>
-      <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: JR Tapeçaria</p>
+      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green' }} />WhatsApp: 11 93937-2281</p>
+      <p><FontAwesomeIcon icon={faWhatsapp} style={{ marginRight: '10px', color:'green'  }}/>WhatsApp: 11 94768-2133</p>
+      <p><FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color:'blue'  }}/>E-mail: jr1tapecaria@gmail.com</p>
       </div>
       
       <div  className="form-container">

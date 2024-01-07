@@ -11,7 +11,7 @@ const Bchat = () => {
   const handleChatButtonClick = () => {
     const whatsappLink = `https://wa.me/5511939372281`; // Replace with your WhatsApp number
     window.open(whatsappLink, '_blank');
-    console.log('Abrir chat bot');
+    console.log('Abrir botao whats app ');
   };
   
   return (

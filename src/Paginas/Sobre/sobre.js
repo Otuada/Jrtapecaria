@@ -16,15 +16,15 @@ export const Sobre =() =>{
             <Section>
                 <Bchat/>
             <TituloH1>Jr Tapeçaria Sobre</TituloH1>
-            <h1>Missão</h1>
+            <TituloH1>Missão</TituloH1>
             <p className="card">Nossa missão é preservar a arte e as técnicas tradicionais na nossa tapeçaria,
                 mantendo viva a herança cultural e histórica do nosso trabalho artistico
                  transformando móveis de estilos antigos e contemporanio, para proporcionar
                  mais sofisticação e conforto ao nosso clientes
             </p>
-            <h1>Visão</h1>
+            <TituloH1>Visão</TituloH1>
             <p className="card">Manter o elevado nível de qualidade nos serviços realizados. Manter a tradição e prospectar novos clientes </p>
-            <h1>Valores</h1>
+            <TituloH1>Valores</TituloH1>
             <h3>Foco no Cliente</h3>
             <p className="card">
                 Colocar o cliente no centro das decisões, oferecendo-lhe um atendimento
@@ -52,12 +52,14 @@ export const Sobre =() =>{
             </p>
             
             </Section>
-            </DivFundo>
             <DivSinistra>
-            
-            <ImagemDeFundo src={require('../../img/sofa5.jpeg')} alt="Sofá"/>
-            
+               <ImagemDeFundo src={require('../../img/qmaxlb_bfb7a8ecd23448fa37210dc0deb29936fbd09769.jpg')} alt="Sofá"/>
             </DivSinistra>
+        </DivFundo>
+            
+            
+            
+            
          <Footer></Footer>
         </div>
     )
