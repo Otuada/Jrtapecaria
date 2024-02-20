@@ -1,7 +1,11 @@
 import React from 'react';
 import { FooterContainer } from "./styled"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+<<<<<<< HEAD
 import { faInstagram, faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+=======
+import { faInstagram, faFacebook, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+>>>>>>> 25bd87ff1d9c8de958ab681a7524c8fe6908d05f
 import {  faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
