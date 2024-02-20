@@ -83,7 +83,7 @@ export const TituloH1Grid = styled.h1`
     color: black;
     text-align: center;
     font-family: 'Dorsa', sans-serif;
-    font-size: 100px;
+    font-size: 34%;
     font-weight: 400;
 
 `
@@ -94,7 +94,7 @@ export const H5Titulo = styled.h1`
     margin-top: 200px;
     text-align: center;
     font-family: 'Dorsa', sans-serif;
-    font-size: 100px;
+    font-size: 7vw;
     font-weight: 400;
     color: yellow; 
     
@@ -127,8 +127,7 @@ export const PSection = styled.p`
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      transition: 0.3s;
      width: 95%;//calc(37% - 20px); /* Calcula 1/3 da largura menos margens */
-     font-size: 19px; /* Tamanho da fonte */    
-     font-size: 100%; /* Tamanho da fonte */
+     font-size: 1vw; /* Tamanho da fonte */    
      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     background-color: #00277A;
     color: #fff;
@@ -138,10 +137,9 @@ export const PSection = styled.p`
 export const DivCardGrid = styled.div`
 
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
-    padding: 20px;
     width: 20%;
     align-items:center;
     margin: 40px;

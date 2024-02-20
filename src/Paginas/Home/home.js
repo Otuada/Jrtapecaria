@@ -17,6 +17,7 @@ import Bchat from "../../Components/chat/Bchat";
 import { Contador } from '../../Components/Contador/contador'
 import { Carousel } from '../../Components/Carrossel/carrossel'
 import { InView } from 'react-intersection-observer'
+import CardHome from "../../Components/Cards/CardsHome";
 
 export const Home = () => {
   const cardsServico = [
@@ -94,22 +95,17 @@ export const Home = () => {
             }}
           >Serviços</TituloH1Grid>
 
-          <DivCardGrid>
+         
             <div>
-              {cardsServico.map((cardServ, index) => (
-                <div key={index}>
-                  <h2>{cardServ.title}</h2>
-                  <p>{cardServ.description}</p>
-                  <a href=" " className="btn-saiba-mais">Saiba Mais</a>
-                </div>
-              ))}
+            
+              <CardHome></CardHome>
             </div>
-            <ImgSection src={require('../../img/sofa2.jpeg')} alt="sofa3" />
-          </DivCardGrid>
+            
+       
         </div>
 
         <div>
-          <p className="card">Para uma avaliação rápida e precisa, gentilmente envie fotos do seu estofado pelo WhatsApp (11) 9 3937 2281. Estamos estrategicamente situados na Granja Viana e prestamos atendimento em toda a região de Cotia, São Paulo, e arredores, com frota própria e uma equipe altamente qualificada. Comprometemo-nos a oferecer um atendimento exímio, acabamento refinado e um pós-venda ativo, assegurando a satisfação plena dos nossos clientes. Renove seu espaço com a JR Tapeçaria - Sua Tapeçaria de Confiança!</p>
+          <p className="card"></p>
         </div>
       </Section>
       <SectionContador>

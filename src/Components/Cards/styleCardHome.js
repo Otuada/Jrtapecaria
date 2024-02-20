@@ -12,7 +12,7 @@ export const Card = styled.div`
   .card {
     display:flex;
     flex-direction: column;
-    width: 20%;
+    width: 100%;
     align-items:center;
     margin: 10px;
     padding: 15px;

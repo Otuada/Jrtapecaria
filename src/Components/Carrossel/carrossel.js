@@ -27,6 +27,11 @@ export const Carousel = () => {
   };
 
   const estiloContainer = {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    alignItems: 'stretch',
+    padding: '20px',
     paddingBottom: '150px',
   };
   const estiloImagem = {
@@ -38,12 +43,21 @@ export const Carousel = () => {
     
   };
 
+  const divImg ={
+    display:'flex',
+    flexDirection: 'column',
+    width: '20%',
+    alignItems:'center',
+    margin: '10px',
+    padding: '15px',
+  };
+
   return (
     <div style={estiloContainer}>
       <Slider {...settings}>
         {imagens.map((imagem, index) => (
-          <div key={index}>
-            <img
+          <div style={divImg} key={index}>
+            <img 
               src={imagem}
               alt={`Imagem ${index + 1}`}
               style={ estiloImagem }
