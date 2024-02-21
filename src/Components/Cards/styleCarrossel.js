@@ -1,37 +1,36 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-.servicos-container {
+  .servicos-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
     padding: 20px;
   }
-  
+
   .card {
-    display:flex;
-    flex-direction: column;
-    width: 20%;
-    align-items:center;
+    display: flex;
+    
+    align-items: center;
     margin: 10px;
     padding: 15px;
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%; 
   }
-  .card:hover{
+
+  .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   }
-  
+
   h2 {
     color: #333;
   }
-  
+
   p {
     color: #666;
   }
-  
+
   .btn-saiba-mais {
     display: inline-block;
     padding: 8px 16px;
@@ -42,38 +41,28 @@ export const Card = styled.div`
     border-radius: 4px;
     transition: background-color 0.3s;
   }
-  
+
   .btn-saiba-mais:hover {
     background-color: #0056b3;
   }
 
-  img{
-    width:50%;
-    border: none;
-    border-radius:50%;
-  }
-  #imgHome{
-    width:10%;
-    border: none;
-    border-radius:50%;
+ 
 
+  #imgHome {
+    width: 20%;
+    border: none;
+    border-radius: 50%;
   }
-  #Slide{
-    width:5%;
+
+  #Slide {
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 10px;
-    list-style: none;
-  text-align: center;
-  padding: 0;
+    padding: 20px;
   }
-  
+
   @media screen and (max-width: 600px) {
     .card {
       width: 100%;
     }
   }
-  
-
-
-
-`
+`;

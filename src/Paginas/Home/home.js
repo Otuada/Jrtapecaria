@@ -18,6 +18,7 @@ import { Contador } from '../../Components/Contador/contador'
 import { Carousel } from '../../Components/Carrossel/carrossel'
 import { InView } from 'react-intersection-observer'
 import CardHome from "../../Components/Cards/CardsHome";
+import CardsCarrossel from "../../Components/Cards/CardsCarrossel";
 
 export const Home = () => {
   const cardsServico = [
@@ -86,7 +87,7 @@ export const Home = () => {
         <H4Section> JR Tapeçaria - Três Décadas de Excelência em Estofados Residenciais </H4Section>
         <div>
           <PSection>Dê vida aos seus estofados com a perícia de uma equipe que acumula mais de trinta anos de experiência! Na JR Tapeçaria, dedicamo-nos a fornecer serviços de excepcional qualidade, incluindo:</PSection>
-          <Carousel />
+          
           <TituloH1Grid
             style={{
               left: `${scrollY}px`,
@@ -97,7 +98,7 @@ export const Home = () => {
 
          
             <div>
-            
+              <CardsCarrossel></CardsCarrossel>
               <CardHome></CardHome>
             </div>
             
